@@ -6,6 +6,13 @@
 This program is a Scala mobile phone recommender system, it shows top 10 mobile phones depending on many different variables. 
 There is also a concise web application coming along with it, which displays an image of recommendations based on user's input.
 
+### Dataset Overview
+Amazon Reviews of unlocked mobile phones in 2016
+| Product Name        | Brand Name           | Price  |  Rating |Reviews  | Reveiw Coutns
+| ------------- |:-------------:| -----:|
+| String     | String | Double |  Int| String| String |
+Resource: https://www.kaggle.com/PromptCloudHQ/amazon-reviews-unlocked-mobile-phones
+
 ### Key Features
 1. This mobile phone recommender system will list top 10 unlocked mobile phones in **different brands**, **price intervals**, **average sentiment score** and **rating score** of each product. 
 2. This system will also calculate **average price, number**, **average ratings** and **combined score** of products for vairous price intervals, which in a descending order for recommending purpose.
