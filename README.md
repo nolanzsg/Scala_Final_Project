@@ -8,4 +8,4 @@ This mobile phone recommender system will list top 10 unlocked mobile phones in 
 ##### Instructions
 1. Install Apache Spark on your device, run spark-shell.<br/> You will see the **output** in command line, which are the top 10 best-selling unlocked mobile phones for each brand. <br/> Also, corresponding csv files will be found in the folder
 2. Choose the range of price, top 10 best-selling mobile phones will be shown in the recommend order.
-3. Web application: will display screenshots of each result
+3. Web application: display screenshots of each result
