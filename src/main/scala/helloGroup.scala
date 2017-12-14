@@ -185,7 +185,7 @@ class helloGroup {
   //convert the DataFrame back into an RDD
 
   import org.apache.spark.sql.Row
-
+  import org.apache.spark.sql.functions._
   val reviewVectors = countVectors.withColumn("id",monotonicallyIncreasingId)
 
 
