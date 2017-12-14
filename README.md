@@ -28,4 +28,4 @@ Resource: https://www.kaggle.com/PromptCloudHQ/amazon-reviews-unlocked-mobile-ph
 ### Methodology
 1. Spark for storing data
 2. Sentiment analyses on customer reviews
-3. Clustering algorithms for brands and reviews
+3. Clustering algorithm and machine learning for analyzing brands and reviews
