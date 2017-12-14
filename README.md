@@ -29,3 +29,8 @@ Resource: https://www.kaggle.com/PromptCloudHQ/amazon-reviews-unlocked-mobile-ph
 1. Spark for storing data
 2. Sentiment analyses on customer reviews
 3. Clustering algorithm and machine learning for analyzing brands and reviews
+
+#### Referenece
+1. https://www.kaggle.com/PromptCloudHQ/amazon-reviews-unlocked-mobile-phones
+2. https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3741049972324885/3783546674231782/4413065072037724/latest.html
+3. https://acadgild.com/blog/twitter-sentiment-analysis-using-spark/
