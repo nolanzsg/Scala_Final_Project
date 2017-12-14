@@ -92,6 +92,7 @@ class helloGroup {
     val reviewSentiment = (ReviewWordsSentiment.sum/(s.toString.split(" ").length) +4)/1.6
     reviewSentiment
   }
+  import org.apache.spark.sql.functions.udf
   val sentiScore = udf(calculateScore)
 
   val amazon_review_senti = amazon_review_filter.withColumn("sentiScore",sentiScore(col("reviews")))
