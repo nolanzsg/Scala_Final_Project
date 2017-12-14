@@ -3,6 +3,7 @@
 ### Introduction
 This program is a Scala mobile phone recommender system, it shows top 10 mobile phones depending on many different variables. 
 There is also a concise web application coming along with it, which displays an image of recommendations based on user's input.
+Commandline.txt can be run in command line
 
 ### Dataset Overview
 Amazon Reviews of unlocked mobile phones in 2016
