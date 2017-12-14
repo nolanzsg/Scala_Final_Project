@@ -95,7 +95,7 @@ class helloGroup {
   import org.apache.spark.sql.functions.udf
   val sentiScore = udf(calculateScore)
 
-  val amazon_review_senti = amazon_review_filter.withColumn("sentiScore",sentiScore('reviews'))
+  val amazon_review_senti = amazon_review_filter.withColumn("sentiScore",sentiScore('reviews))
   //val amazon_review_senti = amazon_review_filter.withColumn("sentiScore",sentiScore()
 
   amazon_review_senti.registerTempTable("amazon_review_senti")
