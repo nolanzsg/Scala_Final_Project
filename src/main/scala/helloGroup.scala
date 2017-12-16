@@ -92,6 +92,30 @@ object helloGroup{
     val reviewSentiment = (ReviewWordsSentiment.sum/(s.toString.split(" ").length) +4)/1.6
     reviewSentiment
   }
+
+
+
+
+  def calculateScore1(s:String): Double = {
+    val ReviewWordsSentiment = s.toString.split(" ").map(word => {
+
+      var senti: Double = 0;
+
+      if (dictionary.contains(word.toLowerCase())) {
+
+        senti = dictionary(word.toLowerCase())
+
+      };
+
+      senti;
+
+    });
+
+    val reviewSentiment = (ReviewWordsSentiment.sum/(s.toString.split(" ").length) +4)/1.6
+    reviewSentiment
+  }
+
+
   import org.apache.spark.sql.functions.udf
   val sentiScore = udf(calculateScore)
 
