@@ -1,7 +1,5 @@
 //package SentimentAnalysis
 
-
-
 import org.scalatest.{FunSpec, Matchers}
 
 

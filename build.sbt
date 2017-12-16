@@ -9,6 +9,7 @@ val scalaTestVersion = "2.2.4"
 resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
 
 libraryDependencies ++= Seq(
+  "org.scalatest" % "scalatest_2.10" % "2.2.1",
   "org.apache.spark" %% "spark-core" % "2.2.0",
   "org.apache.spark" %% "spark-sql" % "2.2.0",
  // "org.apache.spark" %% "spark-streaming1" % "2.2.0",
