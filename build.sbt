@@ -11,7 +11,7 @@ resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/release
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % "2.2.0",
   "org.apache.spark" %% "spark-sql" % "2.2.0",
-  "org.apache.spark" %% "spark-streaming1" % "2.2.0",
+ // "org.apache.spark" %% "spark-streaming1" % "2.2.0",
   "org.apache.spark" %% "spark-mllib" % "2.2.0"
 )
 
